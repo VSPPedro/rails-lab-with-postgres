@@ -32,7 +32,7 @@ Go to the console with `rails c` and populate the database using factory bot: `F
 
 ### Index
 
-For now we call use rails db:rollback, with the objective to remove the indexs. And rails db:migrate to add the indexs. Run the SQLs between this commands and see for yourself the results.
+For now we can run `rails db:rollback`, with the objective to remove the indexs, and `rails db:migrate` to add the indexs. Run the SQLs between this commands and see for yourself the results.
 
 
 #### Example of Sql to test index_users_on_lower_first_name_varchar_pattern_ops
