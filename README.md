@@ -2,7 +2,7 @@
 
 The purpose of this project is to study the features of postgresql.
 
-# Dockercompose
+# Docker compose
 
 For now the docker-compose.yml only have PostgreSQL and PGAdmin. You can start this dependencies with:
 
@@ -17,11 +17,11 @@ url: http://localhost:80/
 email: admin@root.com  
 password: SuperSecret
 
-### How to connect to PostgresSQL
+### How to connect to PostgresSQL using PGAdmin?
 
-Host name/address: postgresdb  
-username: index_demo  
-password: index_demo
+Host name/address: **postgresdb**  
+username: **index_demo**  
+password: **index_demo**
 
 ### How to create valid data?
 
@@ -35,7 +35,7 @@ Go to the console with `rails c` and populate the database using factory bot: `F
 For now we call use rails db:rollback, with the objective to remove the indexs. And rails db:migrate to add the indexs. Run the SQLs between this commands and see for yourself the results.
 
 
-#### Sql to test index_users_on_lower_first_name_varchar_pattern_ops
+#### Example of Sql to test index_users_on_lower_first_name_varchar_pattern_ops
 
 ```sql
 SELECT *
@@ -43,7 +43,7 @@ FROM users
 WHERE lower(first_name) LIKE 'theodore%';
 ```
 
-#### Sql to test index_users_on_regexp_replace_phone_0_9
+#### Example of Sql to test index_users_on_regexp_replace_phone_0_9
 
 ```sql
 SELECT *
