@@ -12,10 +12,10 @@ docker-compose up
 
 ## PGAdmin
 
-url: http://localhost:80/
+URL: http://localhost:80/
 
-email: admin@root.com  
-password: SuperSecret
+email: **admin@root.com**  
+password: **SuperSecret**  
 
 ### How to connect to PostgresSQL using PGAdmin?
 
