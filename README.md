@@ -1,6 +1,6 @@
 # README
 
-The purpose of this project is to study the features of postgresql.
+The purpose of this project is to study postgresql with Rails.
 
 # Docker compose
 
