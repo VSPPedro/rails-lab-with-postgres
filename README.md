@@ -4,20 +4,20 @@ The purpose of this project is to study the features of postgresql.
 
 # Docker compose
 
-For now the docker-compose.yml only have PostgreSQL and PGAdmin. You can start this dependencies with:
+For now the docker-compose.yml only have PostgreSQL and pgAdmin. You can start this dependencies with:
 
 ```shell
 docker-compose up
 ```
 
-## PGAdmin
+## pgAdmin
 
 URL: http://localhost:80/
 
 email: **admin@root.com**  
 password: **SuperSecret**  
 
-### How to connect to PostgresSQL using PGAdmin?
+### How to connect to PostgresSQL using pgAdmin?
 
 Host name/address: **postgresdb**  
 username: **index_demo**  
