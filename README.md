@@ -25,7 +25,7 @@ password: **index_demo**
 
 ### How to create valid data?
 
-Go to the console with `rails c` and populate the database using factory bot: `FactoryBot.create_list(:user, 500000)`. The number of user is up to you.  
+Go to the console with `rails c` and populate the database using factory bot: `FactoryBot.create_list(:user, 500000)`. The number of users is up to you.  
 
 
 ## Features
